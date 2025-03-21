@@ -1,0 +1,110 @@
+/* Background and text styling for the header */
+.myDiv {
+  background-color: rgb(15, 5, 42);
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+.titleHeader {
+  padding-top: 8px;
+  color: antiquewhite;
+}
+
+/* Layout for the first row */
+.firstrow,.secondrow,.thirdrow {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* Styling for individual image containers */
+.firstrowImg,.secondrowimg,.thirdrowimg {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  padding: 10px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+/* Styling for images */
+.img1, .img2, .img3, .img4, .img5, .img6,.img7,.img8, .img9,.img10,.img11,.img12,.img13,.img14,.img15{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+/* Middle div for the text */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  text-align: center;
+}
+
+/* Styling for the text */
+.text {
+  background-color: rgba(0, 0, 0, 0.7); /* Slight transparency for better text visibility */
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+/* Hover effect for images */
+.firstrowImg:hover .img1, .firstrowImg:hover .img2, 
+.firstrowImg:hover .img3, .firstrowImg:hover .img4, 
+.firstrowImg:hover .img5, 
+.firstrowImg:hover {
+  opacity: 0.8; /* Fade the image */
+}
+
+
+.secondrowimg:hover .img6, .secondrowimg:hover .img7, 
+.secondrowImg:hover .img8, .secondrowImg:hover .img9, 
+.secondrowImg:hover .img10, 
+.secondrowImg:hover {
+  opacity: 0.8; /* Fade the image */
+}
+
+.thirrowimg:hover .img11, .thirdrowimg:hover .img12, 
+.thirdrowImg:hover .img13, .thirdrowImg:hover .img14, 
+.thirdrowImg:hover .img15, 
+.thirdrowImg:hover {
+  opacity: 0.8; /* Fade the image */
+}
+
+/* Show the text on hover */
+.firstrowImg:hover .middle {
+  opacity: 1; /* Make text visible */
+}
+
+.secondrowimg:hover .middle{
+  opacity: 1;
+}
+
+.thirdrowimg:hover .middle{
+
+  opacity:1;
+
+}
+
+.footer{
+  width: 100%;
+  height: 30px;
+  background-color: #BBCFC9;
+
+}
+
+.footerText{
+  font-size: small;
+  text-align: center;
+  padding-top: 7px;
+  font-family:'Times New Roman', Times, serif;
+}
