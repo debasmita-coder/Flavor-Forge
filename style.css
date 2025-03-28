@@ -30,13 +30,7 @@
 }
 
 /* Styling for images */
-.img1, .img2, .img3, .img4, .img5, .img6,.img7,.img8, .img9,.img10,.img11,.img12,.img13,.img14,.img15{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 0.5s ease;
-  opacity: 1;
-}
+
 
 /* Middle div for the text */
 .middle {
@@ -57,14 +51,12 @@
   padding: 12px 24px;
 }
 
-/* Hover effect for images */
 .firstrowImg:hover .img1, .firstrowImg:hover .img2, 
 .firstrowImg:hover .img3, .firstrowImg:hover .img4, 
 .firstrowImg:hover .img5, 
 .firstrowImg:hover {
   opacity: 0.8; /* Fade the image */
 }
-
 
 .secondrowimg:hover .img6, .secondrowimg:hover .img7, 
 .secondrowImg:hover .img8, .secondrowImg:hover .img9, 
