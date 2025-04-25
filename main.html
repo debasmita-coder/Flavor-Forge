@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- <title>Bootstrap demo</title> -->
@@ -145,8 +146,50 @@
 
     <!-- Footer -->
     <div class="footer">
-      <h2 class="footerText"><i class="bi bi-c-circle"></i> All Rights Reserved</h2>
+      <h2 class="footerText">
+        <i class="bi bi-c-circle"></i> All Rights Reserved
+      </h2>
       <!-- Adding the Material Symbol Icon -->
     </div>
+
+    <!-- Add these modal divs just before </body> -->
+
+    <!-- Biriyani Modal (existing) -->
+    <div id="biriyaniModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Biriyani</h2>
+        <img src="./Images/biriyani.jpeg" class="modal-image" />
+        <p>
+          Fragrant basmati rice cooked with succulent meat and aromatic
+          spices...
+        </p>
+        <p class="price">Price: ₹250</p>
+      </div>
+    </div>
+
+    <!-- Fried Rice Modal -->
+    <div id="friedRiceModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Fried Rice</h2>
+        <img src="./Images/fried rice2.jpg" class="modal-image" />
+        <p>Stir-fried rice with vegetables, eggs, and your choice of meat...</p>
+        <p class="price">Price: ₹180</p>
+      </div>
+    </div>
+
+    <!-- Noodles Modal -->
+    <div id="noodlesModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Noodles</h2>
+        <img src="./Images/noodles.jpeg" class="modal-image" />
+        <p>Authentic Asian-style noodles tossed with fresh vegetables...</p>
+        <p class="price">Price: ₹160</p>
+      </div>
+    </div>
+
+    <!-- Add similar modals for all 15 menu items -->
   </body>
 </html>
